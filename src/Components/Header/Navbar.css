@@ -1,0 +1,81 @@
+/* side navbar start */
+.header__nav{
+    height: 100vh;
+}
+.list-style{
+    border: none !important;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.list-style:hover{
+    color: rgb(111, 134, 247) !important;
+}
+.list-group-item{
+    background-color:#212529 !important;
+    color: white !important;
+}
+.padding__row{
+    padding: 0 !important;
+}
+.bg_img{
+    background-color:#e8ebed !important;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    background-color: #212529 !important;
+    color: white !important;
+    padding: 0 !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: none !important;
+}
+.accordion-button:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-item{
+     border: none !important;
+     border-radius: 0;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+    outline: none;
+}
+
+.accordion1{
+    border-radius: 0px !important;
+    background-color: #212529 !important;
+}
+
+/* side navbar end */
+
+/* topbar start */
+/* search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 20px !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    
+}
+/* topbar end */

@@ -1,0 +1,14 @@
+.form-control{
+    border-radius: 2px !important;
+}
+.btn{
+    border-radius: 2px !important;
+}
+.border-lg-end {
+    border-right: none !important;
+  }
+@media (min-width: 992px) {
+    .border-lg-end {
+      border-right: 1px solid #e3e7eb !important;
+    }
+}
